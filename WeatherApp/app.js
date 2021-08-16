@@ -16,7 +16,7 @@ const key = "3eec2fc8dd58b7418ed1648e8669ccb1";
 
 getWeather("coimbatore");
 function getWeather(city_name){
-    let api = `http://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${key}`;
     
     fetch(api)
         .then(function(response){
