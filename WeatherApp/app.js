@@ -14,7 +14,7 @@ const KELVIN = 273;
 
 const key = "3eec2fc8dd58b7418ed1648e8669ccb1";
 
-getWeather("coimbatore");
+getWeather("Varansi");
 function getWeather(city_name){
     let api = `https://api.openweathermap.org/data/2.5/weather?q=${city_name}&appid=${key}`;
     
